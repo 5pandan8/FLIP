@@ -33,3 +33,6 @@ https://drive.google.com/drive/folders/1nu2PMSx1mVi-RDSjuRNmD9_xh9wKgnFM?usp=sha
 ## Sense2vec reddit 2015 files:
 
 https://github.com/explosion/sense2vec/releases/download/v1.0.0/s2v_reddit_2015_md.tar.gz
+
+## Google colab:
+https://colab.research.google.com/drive/1dMLjEAm-X9yzWAKArj-f0I6PsCPLakkG?usp=sharing
