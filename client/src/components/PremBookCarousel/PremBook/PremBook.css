@@ -1,0 +1,40 @@
+.prembookCard {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 1rem;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  max-width: 30%;
+}
+
+.prembookCard_info {
+  padding: 20px 30px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.prembookCard_title {
+  color: #252e48;
+  font-size: 18px;
+  line-height: 24px;
+  float: left;
+}
+
+.prembookCard_author {
+  color: #252e48;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .prembookCard {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .prembookCard {
+    margin-bottom: 2rem;
+  }
+}

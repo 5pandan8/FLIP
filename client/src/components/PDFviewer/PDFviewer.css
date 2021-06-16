@@ -1,0 +1,7 @@
+.webviewer {
+  height: 88vh;
+  width: 90%;
+  margin: 3.5% 5% 2% 5%;
+  -webkit-box-shadow: 1px 1px 10px #999;
+  box-shadow: 1px 1px 10px #999;
+}
