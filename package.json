@@ -1,0 +1,28 @@
+{
+  "name": "flip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Spandan Patil",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "mongodb": "^3.6.6",
+    "request": "^2.88.2",
+    "socket.io": "^4.1.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
