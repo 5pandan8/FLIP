@@ -1,0 +1,24 @@
+.summaryContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.summaryContainer h1 {
+  margin: 6px;
+}
+
+.summaryContainer h4 {
+  margin: 6px;
+  font-style: italic;
+}
+
+.summaryContainer p {
+  margin: 6px;
+}
+
+.summary-btns .mybtn {
+  margin: 6px;
+}

@@ -1,0 +1,37 @@
+:root {
+  --primary: #0057ff;
+}
+
+.mybtn:disabled {
+  opacity: 0.5;
+}
+
+.mybtn--primary {
+  background-color: #0057ff;
+  color: #fff;
+}
+
+.mybtn--outline {
+  background-color: #fff;
+  color: #0057ff;
+  padding: 8px 20px;
+  transition: all 0.3s ease-out;
+}
+
+.mybtn--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.mybtn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.mybtn--large:hover,
+.mybtn--medium :hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}

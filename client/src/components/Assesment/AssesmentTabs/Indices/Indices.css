@@ -1,0 +1,22 @@
+.IndexContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formControl {
+  margin: 20px 0;
+}
+
+.formControl label {
+  display: flex;
+  font-size: 20px;
+}
+
+.formControl input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 14px;
+}

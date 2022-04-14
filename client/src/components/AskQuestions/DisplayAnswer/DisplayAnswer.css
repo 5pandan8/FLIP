@@ -1,0 +1,19 @@
+.DisplayAnswerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3.5% 10% 2% 10%;
+  background-color: white;
+  border-radius: 2px;
+  padding: 2%;
+  border: 4px solid #0057ff;
+}
+
+.DisplayAnswerContainer h1 {
+  margin: 6px;
+  font-style: italic;
+}
+
+.DisplayAnswerContainer h2 {
+  margin: 6px;
+}

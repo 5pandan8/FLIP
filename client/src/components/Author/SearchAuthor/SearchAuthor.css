@@ -1,0 +1,26 @@
+.SearchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 5%;
+  margin: 2% 20% 2% 20%;
+  border: 4px solid #0057ff;
+}
+
+.formControl {
+  margin: 20px 0;
+}
+
+.formControl label {
+  display: flex;
+  font-size: 20px;
+}
+
+.formControl input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 14px;
+}

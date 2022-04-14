@@ -1,0 +1,26 @@
+.rec.rec-dot {
+  background-color: #0057ff;
+}
+
+.rec.rec-dot:hover,
+.rec.rec-dot:active,
+.rec.rec-dot:focus {
+  background-color: #0057ff;
+  box-shadow: 0 0 1px 3px rgba(0, 87, 255, 0.5);
+}
+
+.rec.rec-dot_active {
+  background-color: #0057ff;
+  box-shadow: 0 0 1px 3px rgba(0, 87, 255, 0.5);
+}
+
+.rec.rec-arrow {
+  background-color: #0057ff;
+  color: white;
+}
+.rec.rec-arrow:active,
+.rec.rec-arrow:hover,
+.rec.rec-arrow:focus {
+  background-color: #0057ff;
+  box-shadow: 0 0 1px 3px rgba(0, 87, 255, 0.5);
+}
